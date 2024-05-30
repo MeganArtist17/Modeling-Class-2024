@@ -1,6 +1,6 @@
 //Maya ASCII 2025 scene
 //Name: Remodeled Table.ma
-//Last modified: Thu, May 30, 2024 04:08:31 PM
+//Last modified: Thu, May 30, 2024 04:08:51 PM
 //Codeset: UTF-8
 requires maya "2025";
 requires -nodeType "mayaUsdLayerManager" -dataType "pxrUsdStageData" "mayaUsdPlugin" "0.27.0";
@@ -12,7 +12,7 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202402161156-0caf8d1269";
 fileInfo "osv" "Mac OS X 13.6.7";
-fileInfo "UUID" "2155C969-D344-7F35-9B60-5EA1E11E7291";
+fileInfo "UUID" "2F33CA21-7243-C35C-94D7-8AB31A98D84E";
 createNode transform -s -n "persp";
 	rename -uid "DACAEDE6-A048-8125-3371-B3ACB520D559";
 	setAttr ".v" no;
@@ -1384,7 +1384,7 @@ createNode polyTweakUV -n "polyTweakUV22";
 	setAttr ".uvtk[33]" -type "float2" -0.18466616 -0.44925424 ;
 	setAttr ".uvtk[35]" -type "float2" 0.24371454 -0.44926056 ;
 createNode mayaUsdLayerManager -n "mayaUsdLayerManager1";
-	rename -uid "C56F1EE3-2B41-4670-0CD0-45B195667046";
+	rename -uid "BE4D87BD-3F46-E9D9-734B-5A970B183928";
 	setAttr ".sst" -type "string" "";
 select -ne :time1;
 	setAttr ".o" 1;

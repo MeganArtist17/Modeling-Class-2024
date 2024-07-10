@@ -1,6 +1,6 @@
 //Maya ASCII 2025 scene
 //Name: Fishforsketchfab.ma
-//Last modified: Mon, Jul 08, 2024 05:27:27 PM
+//Last modified: Mon, Jul 08, 2024 05:51:11 PM
 //Codeset: UTF-8
 requires maya "2025";
 currentUnit -l centimeter -a degree -t film;
@@ -9,12 +9,12 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202402161156-0caf8d1269";
 fileInfo "osv" "Mac OS X 13.6.7";
-fileInfo "UUID" "EF1F138A-AD46-2358-702C-DF8E1136CEAC";
+fileInfo "UUID" "5546AF31-484D-7629-E619-80ADD71F931C";
 createNode transform -s -n "persp";
 	rename -uid "F9182927-A44E-A648-7129-6E9A80AD9173";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 31.75522146604969 37.543175259074133 34.335462546099279 ;
-	setAttr ".r" -type "double3" -27.938352727653204 391.39999999972065 0 ;
+	setAttr ".t" -type "double3" 30.281104776665533 50.017168831847997 23.056653528612284 ;
+	setAttr ".r" -type "double3" -49.538352727659586 400.99999999971214 -2.1071381394885721e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "84618D15-1C47-C6A7-0644-AE97A68226DA";
 	setAttr -k off ".v" no;

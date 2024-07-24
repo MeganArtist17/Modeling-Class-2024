@@ -1,6 +1,6 @@
 //Maya ASCII 2025 scene
 //Name: Starship-meganoakeson.2024-07-12-18.07].ma
-//Last modified: Fri, Jul 19, 2024 03:43:09 PM
+//Last modified: Fri, Jul 19, 2024 07:40:04 PM
 //Codeset: UTF-8
 requires maya "2025";
 currentUnit -l centimeter -a degree -t film;
@@ -9,7 +9,7 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202402161156-0caf8d1269";
 fileInfo "osv" "Mac OS X 13.6.7";
-fileInfo "UUID" "0F9B361B-CD4F-7484-694A-178B9CB74F36";
+fileInfo "UUID" "5AB41966-AE4F-1E63-FEE3-07BC23862C56";
 createNode transform -s -n "persp";
 	rename -uid "1CEFA1A7-F549-C906-EA94-699FAD35788D";
 	setAttr ".t" -type "double3" 30.315808885918781 15.261962688743132 15.542222695737188 ;
